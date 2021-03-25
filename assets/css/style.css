@@ -66,13 +66,15 @@ p {
   margin-left: 25px;
 }
 
-.content {
+/* changed the class content to just the semantic <main> tag */
+main {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
-.benefits {
+/* changed the benefits class to just the semantic <aside> tag */
+aside {
   margin-right: 20px;
   padding: 20px;
   clear: both;
@@ -117,7 +119,8 @@ p {
   font-size: 36px;
 }
 
-.footer {
+/* changed footer class to semantic <footer> tag */
+footer {
   padding: 30px;
   clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
@@ -125,6 +128,6 @@ p {
   text-align: center;
 }
 
-.footer h2 {
+footer h2 {
   font-size: 20px;
 }
